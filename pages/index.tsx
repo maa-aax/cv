@@ -5,10 +5,10 @@ import { FaLocationDot } from 'react-icons/fa6'
 import { GiSmartphone } from 'react-icons/gi'
 import { MdDarkMode } from 'react-icons/md'
 import { SiMaildotru } from 'react-icons/si'
+import clsx from 'clsx'
 
 import Separator from 'components/Separator'
 import Tag from 'components/Tag'
-import clsx from 'clsx'
 
 const links = {
   email: 'maxime.duhamel@protonmail.com',
@@ -74,6 +74,7 @@ const skills = {
     xml: 'XML',
     virtualbox: 'VirtualBox',
     trello: 'Trello',
+    windows: 'Windows',
   },
   learning: {
     vue: 'Vue',
@@ -365,10 +366,11 @@ export default function Home() {
                     <Tag color="green" classes="mr-1 mb-1">{skills.front.next}</Tag>
                     <Tag color="blue" classes="mr-1 mb-1">{skills.back.express}</Tag>
                     <Tag color="blue" classes="mr-1 mb-1">{skills.back.koa}</Tag>
-                    <Tag color="blue" classes="mr-1 mb-1">{skills.dbs.mongo}</Tag>
+                    <Tag color="purple" classes="mr-1 mb-1">{skills.dbs.mongo}</Tag>
                     <Tag color="purple" classes="mr-1 mb-1">{skills.dbs.postgre}</Tag>
-                    <Tag color="black" classes="mr-1 mb-1">{skills.other.docker}</Tag>
+                    <Tag color="black" classes="mr-1 mb-1">{skills.other.mac}</Tag>
                     <Tag color="black" classes="mr-1 mb-1">{skills.other.linux}</Tag>
+                    <Tag color="black" classes="mr-1 mb-1">{skills.other.docker}</Tag>
                     <Tag color="black" classes="mr-1 mb-1">{skills.other.rabbitmq}</Tag>
                     <Tag color="black" classes="mr-1 mb-1">{skills.other.jenkins}</Tag>
                     <Tag color="black" classes="mr-1 mb-1">{skills.other.sentry}</Tag>
@@ -389,10 +391,10 @@ export default function Home() {
                       <strong className="text-xl">Neventy</strong>
                     </a>
                     <span className="space-x-1 font-semibold">
+                      <span>[stage]</span>
                       <span>07/2014</span>
                       <span>-</span>
                       <span>10/2014</span>
-                      <span>[stage]</span>
                     </span>
                   </span>
                   <span className="flex justify-between items-center mt-1 space-x-6 text-md">
@@ -406,6 +408,8 @@ export default function Home() {
                     <Tag color="red" classes="mr-1 mb-1">{skills.base.js}</Tag>
                     <Tag color="green" classes="mr-1 mb-1">{skills.front.jquery}</Tag>
                     <Tag color="green" classes="mr-1 mb-1">{skills.front.css}</Tag>
+                    <Tag color="black" classes="mr-1 mb-1">{skills.other.mac}</Tag>
+                    <Tag color="black" classes="mr-1 mb-1">{skills.miscellaneous.trello}</Tag>
                   </div>
                 </li>
 
@@ -419,10 +423,10 @@ export default function Home() {
                       <strong className="text-xl">Utilib</strong>
                     </a>
                     <span className="space-x-1 font-semibold">
+                      <span>[stage]</span>
                       <span>03/2014</span>
                       <span>-</span>
                       <span>06/2014</span>
-                      <span>[stage]</span>
                     </span>
                   </span>
                   <span className="flex justify-between items-center mt-1 text-md">
@@ -436,7 +440,8 @@ export default function Home() {
                     <Tag color="red" classes="mr-1 mb-1">{skills.base.js}</Tag>
                     <Tag color="green" classes="mr-1 mb-1">{skills.front.jquery}</Tag>
                     <Tag color="blue" classes="mr-1 mb-1">{skills.back.express}</Tag>
-                    <Tag color="blue" classes="mr-1 mb-1">{skills.dbs.mongo}</Tag>
+                    <Tag color="purple" classes="mr-1 mb-1">{skills.dbs.mongo}</Tag>
+                    <Tag color="black" classes="mr-1 mb-1">{skills.other.mac}</Tag>
                     <Tag color="black" classes="mr-1 mb-1">{skills.miscellaneous.trello}</Tag>
                   </div>
                 </li>
@@ -451,10 +456,10 @@ export default function Home() {
                       <strong className="text-xl">NetExplorer</strong>
                     </a>
                     <span className="space-x-1 font-semibold">
+                      <span>[stage]</span>
                       <span>07/2013</span>
                       <span>-</span>
                       <span>10/2013</span>
-                      <span>[stage]</span>
                     </span>
                   </span>
                   <span className="flex justify-between items-center mt-1 space-x-6 text-md">
@@ -462,11 +467,12 @@ export default function Home() {
                     <span>Colomiers, France</span>
                   </span>
                   <p className="mt-1">
-                    L'objectif était de régler les problèmes de style pour le naviguateur Internet Explorer, et ce jusqu'à sa version 7.
+                    Résolution des problèmes de style liés aux spécificités de certains navigateurs (eg: Internet Explorer jusqu'en version 7), pour l'interface web d'une solution de partage/stockage de fichiers en ligne.
                   </p>
                   <div className="flex flex-wrap mt-1">
                     <Tag color="green" classes="mr-1 mb-1">{skills.front.ie}</Tag>
                     <Tag color="green" classes="mr-1 mb-1">{skills.front.css}</Tag>
+                    <Tag color="black" classes="mr-1 mb-1">{skills.miscellaneous.windows}</Tag>
                   </div>
                 </li>
 
@@ -480,10 +486,10 @@ export default function Home() {
                       <strong className="text-xl">Actemium Robotique & Automation</strong>
                     </a>
                     <span className="space-x-1 font-semibold">
+                      <span>[stage]</span>
                       <span>04/2012</span>
                       <span>-</span>
                       <span>06/2012</span>
-                      <span>[stage]</span>
                     </span>
                   </p>
                   <p className="flex justify-between items-center mt-1 space-x-6 text-md">
@@ -497,6 +503,7 @@ export default function Home() {
                     <Tag color="red" classes="mr-1 mb-1">{skills.miscellaneous.vba}</Tag>
                     <Tag color="red" classes="mr-1 mb-1">{skills.miscellaneous.python}</Tag>
                     <Tag color="red" classes="mr-1 mb-1">{skills.miscellaneous.xml}</Tag>
+                    <Tag color="black" classes="mr-1 mb-1">{skills.miscellaneous.windows}</Tag>
                     <Tag color="black" classes="mr-1 mb-1">{skills.miscellaneous.virtualbox}</Tag>
                   </div>
                 </li>
@@ -535,7 +542,7 @@ export default function Home() {
                     >
                       <strong className="text-xl">IUT de Blagnac</strong>
                     </a>
-                    <span className="text-md font-semibold">2010-2012</span>
+                    <span className="text-md font-semibold">2010 - 2012</span>
                   </p>
                   <p className="flex justify-between">
                     <span className="text-md font-semibold">DUT Informatique</span>
