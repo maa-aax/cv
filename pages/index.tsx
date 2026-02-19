@@ -30,12 +30,9 @@ const skills = {
   front: {
     react: 'React',
     next: 'Next',
-    vue: 'Vue',
-    svelte: 'svelte',
     jquery: 'JQuery',
-    html5: 'HTML5',
+    html: 'HTML',
     css: 'CSS',
-    css3: 'CSS3',
     sass: 'Sass',
     tailwind: 'TailwindCSS',
     babel: 'Babel',
@@ -50,7 +47,6 @@ const skills = {
   },
   dbs: {
     postgre: 'PostgreSQL (Sequelize)',
-    express: 'Express',
     mongo: 'MongoDB (Mongoose)',
   },
   other: {
@@ -80,6 +76,7 @@ const skills = {
     vue: 'Vue',
     svelte: 'Svelte',
     bun: 'Bun',
+    python: 'Python',
   }
 }
 
@@ -159,7 +156,7 @@ export default function Home() {
             <div className="flex flex-col space-y-2 3xs:mt-4">
               <h1 className="text-2xl xs:text-5xl md:text-6xl font-extrabold">Duhamel Maxime</h1>
               <h2 className="text-2xl">Full-Stack JS Developer</h2>
-              <h2 className="text-lg">10 ans d'expérience</h2>
+              <h2 className="text-lg">8 ans d'expérience</h2>
             </div>
           </div>
         </header>
@@ -261,13 +258,13 @@ export default function Home() {
               <h2 className="flex text-2xl font-bold">En cours d'apprentissage</h2>
               <ul className="mt-2 flex flex-wrap">
                 <li className="mr-1 mb-1">
-                  <Tag color="green" classes="m-0">{skills.learning.vue}</Tag>
+                  <Tag color="green" classes="m-0">{skills.learning.vue} & {skills.learning.svelte}</Tag>
                 </li>
                 <li className="mr-1 mb-1">
-                  <Tag color="green" classes="m-0">{skills.learning.svelte}</Tag>
+                  <Tag color="blue" classes="m-0">{skills.learning.bun}</Tag>
                 </li>
                 <li className="mr-1 mb-1">
-                  <Tag color="green" classes="m-0">{skills.learning.bun}</Tag>
+                  <Tag color="red" classes="m-0">{skills.learning.python}</Tag>
                 </li>
               </ul>
             </section>
@@ -320,14 +317,10 @@ export default function Home() {
               <Separator classes="md:hidden"/>
               <h2 className="text-2xl pb-1 font-bold">Résumé</h2>
               <p className="text-md">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Expedita delectus labore enim in minus quod vero dignissimos
-                et, ratione obcaecati quis maiores? Voluptatem, natus
-                cupiditate perferendis omnis ex hic incidunt! Earum dolore
-                cupiditate sed et maxime distinctio iure fugiat aspernatur at
-                veniam laudantium eveniet corporis dicta reiciendis quod
-                consequatur, labore perferendis dolorum velit quibusdam minus
-                iste dolorem! Officiis, obcaecati maxime
+                <span>Développeur JS Full-Stack avec plus de 8ans dans la conception, le développement et la maintenance d'applications web.</span>
+                <span>Expert en JavaScript (aussi bien en front avec React et Next, qu'en back avec Node via Express ou Koa), ainsi qu'en HTML/CSS.</span>
+                <span>Possédant des connaissances approfondies en matière de conception et gestion de bases de données (MongoDB, PostgreSQL), d'approche GitOps (Jenkins, GitLab CI/CD), d'orchestration d'applications conteneurisés (Docker), d'échanges asynchrones entre applications via système de message (RabbitMQ).</span>
+                <span>Capable de gérer des projets de bout en bout et de résoudre efficacement des problèmes complexes. Passionné par l'adoption de nouvelles technologies et la recherche de solutions innovantes pour répondre aux besoins des clients.</span>
               </p>
             </section>
 
