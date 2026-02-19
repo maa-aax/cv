@@ -11,7 +11,7 @@ import Tag from 'components/Tag'
 import clsx from 'clsx'
 
 const links = {
-  email: 'mduhamel31@gmail.com',
+  email: 'maxime.duhamel@protonmail.com',
   linkedin: 'https://www.linkedin.com/in/duhamel-maxime',
   maps: 'https://www.google.com/maps/place/Toulouse/@43.6005854,1.2683801,11z/data=!3m1!4b1!4m6!3m5!1s0x12aebb6fec7552ff:0x406f69c2f411030!8m2!3d43.604652!4d1.444209!16zL20vMGNiaGg?entry=ttu',
 }
@@ -174,7 +174,7 @@ export default function Home() {
                 <li className="flex items-center space-x-2">
                   <GiSmartphone className="text-xl"/>
                   <a href="tel:0640654963" className="text-purple-600 hover:underline dark:text-purple-300">
-                    06 40 65 49 63
+                    07 43 62 17 10
                   </a>
                 </li>
                 <li className="flex items-center space-x-2">
