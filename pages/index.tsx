@@ -346,7 +346,7 @@ export default function Home() {
                       <strong className="text-xl">Maestro Corporation</strong>
                     </a>
                     <span className="space-x-1 text-md font-semibold">
-                      <span>11/2013</span>
+                      <span>04/2015</span>
                       <span>-</span>
                       <span>06/2023</span>
                     </span>
@@ -382,35 +382,6 @@ export default function Home() {
                 <li className="mt-4">
                   <span className="flex justify-between items-center">
                     <a
-                      href="https://www.netexplorer.fr/en/"
-                      target="_blank"
-                      className="mr-4 text-purple-600 hover:underline dark:text-purple-300"
-                    >
-                      <strong className="text-xl">NetExplorer</strong>
-                    </a>
-                    <span className="space-x-1 font-semibold">
-                      <span>06/2012</span>
-                      <span>-</span>
-                      <span>08/2014</span>
-                      <span>[stage]</span>
-                    </span>
-                  </span>
-                  <span className="flex justify-between items-center mt-1 space-x-6 text-md">
-                    <span className="font-semibold">Junior Web Developer</span>
-                    <span>Colomiers, France</span>
-                  </span>
-                  <p className="mt-1">
-                    L'objectif était de régler les problèmes de style pour le naviguateur Internet Explorer, et ce jusqu'à sa version 7.
-                  </p>
-                  <div className="flex flex-wrap mt-1">
-                    <Tag color="green" classes="mr-1 mb-1">{skills.front.ie}</Tag>
-                    <Tag color="green" classes="mr-1 mb-1">{skills.front.css}</Tag>
-                  </div>
-                </li>
-
-                <li className="mt-4">
-                  <span className="flex justify-between items-center">
-                    <a
                       href="https://www.univers-cites.fr/2013/04/26/restez-connectes-avec-lappli-neventy/"
                       target="_blank"
                       className="mr-4 text-purple-600 hover:underline dark:text-purple-300"
@@ -418,9 +389,9 @@ export default function Home() {
                       <strong className="text-xl">Neventy</strong>
                     </a>
                     <span className="space-x-1 font-semibold">
-                      <span>01/2013</span>
+                      <span>07/2014</span>
                       <span>-</span>
-                      <span>06/2013</span>
+                      <span>10/2014</span>
                       <span>[stage]</span>
                     </span>
                   </span>
@@ -439,37 +410,6 @@ export default function Home() {
                 </li>
 
                 <li className="mt-4">
-                  <p className="flex justify-between items-center">
-                    <a
-                      href="https://www.linkedin.com/company/actemiumtoulouserobotique&automation/"
-                      target="_blank"
-                      className="mr-4 text-purple-600 hover:underline dark:text-purple-300"
-                    >
-                      <strong className="text-xl">Actemium Robotique & Automation</strong>
-                    </a>
-                    <span className="space-x-1 font-semibold">
-                      <span>01/2012</span>
-                      <span>-</span>
-                      <span>09/2012</span>
-                      <span>[stage]</span>
-                    </span>
-                  </p>
-                  <p className="flex justify-between items-center mt-1 space-x-6 text-md">
-                    <span className="font-semibold">System Developer</span>
-                    <span>Toulouse, France</span>
-                  </p>
-                  <p className="mt-1">
-                    Stage de fin de DUT, avec pour objectif le portage d'une application de gestion de machines virtuelles en Python depuis une base en VBA, via du parsing de fichiers XML et de commandes DOS.
-                  </p>
-                  <div className="flex flex-wrap mt-1">
-                    <Tag color="red" classes="mr-1 mb-1">{skills.miscellaneous.vba}</Tag>
-                    <Tag color="red" classes="mr-1 mb-1">{skills.miscellaneous.python}</Tag>
-                    <Tag color="red" classes="mr-1 mb-1">{skills.miscellaneous.xml}</Tag>
-                    <Tag color="black" classes="mr-1 mb-1">{skills.miscellaneous.virtualbox}</Tag>
-                  </div>
-                </li>
-
-                <li className="mt-4">
                   <span className="flex justify-between items-center">
                     <a
                       href="https://www.linkedin.com/company/utilib/"
@@ -479,9 +419,9 @@ export default function Home() {
                       <strong className="text-xl">Utilib</strong>
                     </a>
                     <span className="space-x-1 font-semibold">
-                      <span>01/2012</span>
+                      <span>03/2014</span>
                       <span>-</span>
-                      <span>03/2012</span>
+                      <span>06/2014</span>
                       <span>[stage]</span>
                     </span>
                   </span>
@@ -498,6 +438,66 @@ export default function Home() {
                     <Tag color="blue" classes="mr-1 mb-1">{skills.back.express}</Tag>
                     <Tag color="blue" classes="mr-1 mb-1">{skills.dbs.mongo}</Tag>
                     <Tag color="black" classes="mr-1 mb-1">{skills.miscellaneous.trello}</Tag>
+                  </div>
+                </li>
+
+                <li className="mt-4">
+                  <span className="flex justify-between items-center">
+                    <a
+                      href="https://www.netexplorer.fr/en/"
+                      target="_blank"
+                      className="mr-4 text-purple-600 hover:underline dark:text-purple-300"
+                    >
+                      <strong className="text-xl">NetExplorer</strong>
+                    </a>
+                    <span className="space-x-1 font-semibold">
+                      <span>07/2013</span>
+                      <span>-</span>
+                      <span>10/2013</span>
+                      <span>[stage]</span>
+                    </span>
+                  </span>
+                  <span className="flex justify-between items-center mt-1 space-x-6 text-md">
+                    <span className="font-semibold">Junior Web Developer</span>
+                    <span>Colomiers, France</span>
+                  </span>
+                  <p className="mt-1">
+                    L'objectif était de régler les problèmes de style pour le naviguateur Internet Explorer, et ce jusqu'à sa version 7.
+                  </p>
+                  <div className="flex flex-wrap mt-1">
+                    <Tag color="green" classes="mr-1 mb-1">{skills.front.ie}</Tag>
+                    <Tag color="green" classes="mr-1 mb-1">{skills.front.css}</Tag>
+                  </div>
+                </li>
+
+                <li className="mt-4">
+                  <p className="flex justify-between items-center">
+                    <a
+                      href="https://www.linkedin.com/company/actemiumtoulouserobotique&automation/"
+                      target="_blank"
+                      className="mr-4 text-purple-600 hover:underline dark:text-purple-300"
+                    >
+                      <strong className="text-xl">Actemium Robotique & Automation</strong>
+                    </a>
+                    <span className="space-x-1 font-semibold">
+                      <span>04/2012</span>
+                      <span>-</span>
+                      <span>06/2012</span>
+                      <span>[stage]</span>
+                    </span>
+                  </p>
+                  <p className="flex justify-between items-center mt-1 space-x-6 text-md">
+                    <span className="font-semibold">System Developer</span>
+                    <span>Toulouse, France</span>
+                  </p>
+                  <p className="mt-1">
+                    Stage de fin de DUT, avec pour objectif le portage d'une application de gestion de machines virtuelles en Python depuis une base en VBA, via du parsing de fichiers XML et de commandes DOS.
+                  </p>
+                  <div className="flex flex-wrap mt-1">
+                    <Tag color="red" classes="mr-1 mb-1">{skills.miscellaneous.vba}</Tag>
+                    <Tag color="red" classes="mr-1 mb-1">{skills.miscellaneous.python}</Tag>
+                    <Tag color="red" classes="mr-1 mb-1">{skills.miscellaneous.xml}</Tag>
+                    <Tag color="black" classes="mr-1 mb-1">{skills.miscellaneous.virtualbox}</Tag>
                   </div>
                 </li>
 
@@ -521,7 +521,7 @@ export default function Home() {
                     <span className="text-md font-semibold">2012 - 2015</span>
                   </p>
                   <p className="flex justify-between">
-                    <span className="text-md font-semibold">Master 2</span>
+                    <span className="text-md font-semibold">Master Informatique</span>
                     <span>Toulouse, France</span>
                   </p>
                 </li>
