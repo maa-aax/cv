@@ -202,7 +202,7 @@ export default function Home() {
                     className="text-purple-600 hover:underline dark:text-purple-300"
                     target="_blank"
                   >
-                    Toulouse, France
+                    Argenton-sur-Creuse, France
                   </a>
                 </li>
               </ul>
@@ -249,6 +249,18 @@ export default function Home() {
                     <Tag color="black" classes="m-0">{skills.other[skill]}</Tag>
                   </li>
                 ))}
+              </ul>
+            </section>
+
+            <Separator />
+
+            <section>
+              <h2 className="text-2xl font-bold">Qualités</h2>
+              <ul className="flex flex-col space-y-1 ml-4 mt-2 list-disc">
+                <li className="">Persévérant et passionné</li>
+                <li className="">Attentif et à l'écoute</li>
+                <li className="">Bon esprit d'équipe</li>
+                <li className="">Aime les challenges</li>
               </ul>
             </section>
 
