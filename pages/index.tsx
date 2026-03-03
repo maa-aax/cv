@@ -258,7 +258,7 @@ export default function Home() {
               <h2 className="flex text-2xl font-bold">En cours d'apprentissage</h2>
               <ul className="mt-2 flex flex-wrap">
                 <li className="mr-1 mb-1">
-                  <Tag color="green" classes="m-0">{skills.learning.vue} & {skills.learning.svelte}</Tag>
+                  <Tag color="green" classes="m-0">{`${skills.learning.vue} & ${skills.learning.svelte}`}</Tag>
                 </li>
                 <li className="mr-1 mb-1">
                   <Tag color="blue" classes="m-0">{skills.learning.bun}</Tag>
