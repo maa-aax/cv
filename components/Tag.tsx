@@ -40,8 +40,8 @@ const Tag = ({
 
     case 'green':
       colorClasses = clsx(
-        'bg-green-500 ring-green-600',
-        'hover:bg-green-600'
+        'bg-green-600 ring-green-700',
+        'hover:bg-green-700'
       )
       break
 
@@ -54,8 +54,15 @@ const Tag = ({
 
     case 'gray':
       colorClasses = clsx(
-        'bg-gray-600 ring-gray-400',
-        'hover:bg-black'
+        'bg-gray-600 ring-gray-700',
+        'hover:bg-gray-700'
+      )
+      break
+
+    case 'amber':
+      colorClasses = clsx(
+        'bg-amber-800 ring-amber-900',
+        'hover:bg-amber-900'
       )
       break
 
