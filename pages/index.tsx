@@ -330,7 +330,7 @@ export default function Home() {
             <section>
               <Separator classes="md:hidden"/>
               <h2 className="text-2xl font-bold">Résumé</h2>
-              <p className="flex flex-col mt-2 space-y-1 text-justify">
+              <p className="flex flex-col mt-2 text-justify">
                 <span>Développeur JS Full-Stack avec plus de 8 ans d'expérience dans la conception, le développement et la maintenance d'applications web.</span>
                 <span>Expert en JavaScript, aussi bien en front-end avec React/Next, qu'en back-end avec Node/Express/Koa, ainsi qu'en structuration/stylisation de pages web via HTML et CSS.</span>
                 <span>
@@ -364,7 +364,7 @@ export default function Home() {
                       </a>
                       <span className="font-semibold">Full-Stack JS Developer</span>
                     </span>
-                    <span className="flex flex-col items-end space-y-1 text-md">
+                    <span className="flex flex-col items-end space-y-1 text-md text-right">
                       <span className="flex items-center font-semibold">
                         <span>[CDI] 11/2015 - 06/2023</span>
                       </span>
@@ -377,6 +377,7 @@ export default function Home() {
                   <div className="flex flex-wrap mt-2 space-x-1 space-y-1 space-x-reverse">
                     <Tag color="red" classes="mt-1 mr-1">{skills.js}</Tag>
                     <Tag color="red">{skills.ts}</Tag>
+                    <Tag color="green">{skills.angular}</Tag>
                     <Tag color="green">{skills.react}</Tag>
                     <Tag color="green">{skills.next}</Tag>
                     <Tag color="blue">{skills.express}</Tag>
@@ -410,7 +411,7 @@ export default function Home() {
                       </a>
                       <span className="font-semibold">Full-Stack JS Developer</span>
                     </span>
-                    <span className="flex flex-col items-end space-y-1 text-md">
+                    <span className="flex flex-col items-end space-y-1 text-md text-right">
                       <span className="flex items-center space-x-2 font-semibold">
                         <span>[stage]</span>
                         <div className="flex flex-col">
@@ -421,8 +422,12 @@ export default function Home() {
                       <span>Toulouse, France</span>
                     </span>
                   </div>
-                  <p className="mt-1 text-justify">
-                    
+                  <p className="flex flex-col mt-1 text-justify">
+                    <span>Conception et développement d'un outil de gestion de stocks pour une jeune entreprise vendant des places de concerts.</span>
+                    <span>L'objectif était de remplacer l'utilisation de plusieurs google sheets afin d'avoir une correlation claire entre les places et les ventes, permettant un aperçu rapide et sûr de l'état des stocks.</span>
+                    <span>N'ayant pas de designer, l'interface en AngularJS s'est affinée au fur et à mesure des besoins, en fonctionnement agile, via des échanges constants avec l'équipe opérationnelle.</span>
+                    <span>La partie server en NodeJS/ExpressJS s'est développée conjointement au système de détection automatique d'évènements sur le web, réalisé par un autre developper, avec l'élaboration d'une base de données MongoDB commune.</span>
+                    <span>Côté environnement, toutes les parties fonctionnaient sous Linux au sein de Dockers, orchestrés via l'outil d'automatisation server Jenkins, certains avec des configurations particulières comme par exemple, pour ma part, des outils de parsing PDF afin d'assurer la cohérence entre les données saisies par les utilisateurs et les informations extraites des places.</span>
                   </p>
                   <div className="flex flex-wrap mt-2 space-x-1 space-y-1 space-x-reverse">
                     <Tag color="red" classes="mt-1 mr-1">{skills.js}</Tag>
@@ -434,7 +439,6 @@ export default function Home() {
                     <Tag color="black">{skills.docker}</Tag>
                     <Tag color="gray">{skills.jenkins}</Tag>
                     <Tag color="amber">{skills.trello}</Tag>
-                    <Tag color="amber">{`${skills.slack} (+API)`}</Tag>
                   </div>
                 </li>
 
@@ -450,7 +454,7 @@ export default function Home() {
                       </a>
                       <span className="font-semibold">Front-End Developer</span>
                     </span>
-                    <span className="flex flex-col items-end space-y-1 text-md">
+                    <span className="flex flex-col items-end space-y-1 text-md text-right">
                       <span className="flex items-center font-semibold">
                         <span>[stage] 07/2014 - 10/2014</span>
                       </span>
@@ -482,7 +486,7 @@ export default function Home() {
                       </a>
                       <span className="font-semibold">Full-Stack JS Developer</span>
                     </span>
-                    <span className="flex flex-col items-end space-y-1 text-md">
+                    <span className="flex flex-col items-end space-y-1 text-md text-right">
                       <span className="flex items-center font-semibold">
                         <span>[stage] 03/2014 - 06/2014</span>
                       </span>
@@ -506,7 +510,7 @@ export default function Home() {
                   <div className="flex justify-between">
                      <span className="flex flex-col justify-start space-y-1">
                       <a
-                        href="https://www.netexplorer.fr/en/"
+                        href="https://www.netexplorer.fr"
                         target="_blank"
                         className="text-purple-600 hover:underline dark:text-purple-300"
                       >
@@ -514,7 +518,7 @@ export default function Home() {
                       </a>
                       <span className="font-semibold">Junior Web Developer</span>
                     </span>
-                    <span className="flex flex-col items-end space-y-1 text-md">
+                    <span className="flex flex-col items-end space-y-1 text-md text-right">
                       <span className="flex items-center font-semibold">
                         <span>[stage] 11/2012 - 02/2013</span>
                       </span>
@@ -543,7 +547,7 @@ export default function Home() {
                       </a>
                       <span className="font-semibold">System Developer</span>
                     </span>
-                    <span className="flex flex-col items-end space-y-1 text-md">
+                    <span className="flex flex-col items-end space-y-1 text-md text-right">
                       <span className="flex items-center font-semibold">
                         <span>[stage] 04/2012 - 06/2012</span>
                       </span>
@@ -584,7 +588,7 @@ export default function Home() {
                   <p className="flex justify-between mt-1">
                     {/* <span className="text-md font-semibold">Master Informatique</span> */}
                     <span className="text-md font-semibold">Bachelor of Science with honours</span>
-                    <span>Toulouse, France</span>
+                    <span className="text-end">Toulouse, France</span>
                   </p>
                 </li>
 
@@ -597,10 +601,10 @@ export default function Home() {
                     >
                       <strong className="text-xl">IUT de Blagnac</strong>
                     </a>
-                    <span className="text-md font-semibold">2010 - 2012</span>
+                    <span className="text-right text-md font-semibold">2010 - 2012</span>
                   </p>
                   <p className="flex justify-between mt-1">
-                    <span className="text-md font-semibold">DUT Informatique</span>
+                    <span className="text-right text-md font-semibold">DUT Informatique</span>
                     <span>Blagnac, France</span>
                   </p>
                 </li>
