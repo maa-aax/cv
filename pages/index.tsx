@@ -208,6 +208,7 @@ export default function Home() {
                 <Tag color="red" classes="mt-1 mr-1">{skills.js}</Tag>
                 <Tag color="red">{skills.ts}</Tag>
                 <Tag color="red">{skills.bash}</Tag>
+                <Tag color="red">{skills.python}</Tag>
                 
                 <Tag color="yellow">{skills.agile}</Tag>
                 <Tag color="yellow">{skills.cicd}</Tag>
@@ -249,13 +250,13 @@ export default function Home() {
                 <Tag color="amber">{skills.notion}</Tag>
               </div>
 
-              <h2 className="mt-4 text-2xl font-bold">En cours d'apprentissage</h2>
+              {/* <h2 className="mt-4 text-2xl font-bold">En cours d'apprentissage</h2>
               <div className="flex flex-wrap mt-2 space-x-1 space-y-1 space-x-reverse">
                 <Tag color="red" classes="mt-1 mr-1">{skills.python}</Tag>
                 <Tag color="green">{skills.vue}</Tag>
                 <Tag color="green">{skills.svelte}</Tag>
                 <Tag color="blue">{skills.bun}</Tag>
-              </div>
+              </div> */}
             </section>
 
             {/* <Separator />
@@ -318,7 +319,6 @@ export default function Home() {
                 <li>Sports : escalade, trail, VTT, randonnée, snowboard, apnée, kayak</li>
                 <li>Nouvelles technologies</li>
                 <li>Musique</li>
-                <li>Jeux (vidéos, de société)</li>
                 <li>Écologie</li>
                 <li>Gastronomie et cuisine</li>
                 <li>Voyage</li>
@@ -331,7 +331,7 @@ export default function Home() {
               <Separator classes="md:hidden"/>
               <h2 className="text-2xl font-bold">Résumé</h2>
               <p className="flex flex-col mt-2 text-justify">
-                <span>Développeur JS Full-Stack avec plus de 8 ans d'expérience dans la conception, le développement et la maintenance d'applications web.</span>
+                <span>Développeur informatique avec plus de 8 ans d'expérience dans la conception, le développement et la maintenance d'applications web.</span>
                 <span>Expert en JavaScript, aussi bien en front-end avec React/Next, qu'en back-end avec Node/Express/Koa, ainsi qu'en structuration/stylisation de pages web via HTML et CSS.</span>
                 <span>
                   Possédant des connaissances approfondies en matière 
@@ -355,48 +355,20 @@ export default function Home() {
                 <li className="mt-4">
                   <div className="flex justify-between">
                      <span className="flex flex-col justify-start space-y-1">
-                      <a
-                        href="https://www.myfrenchstartup.com/fr/startup-france/181025/maestro_corporation"
-                        target="_blank"
-                        className="text-purple-600 hover:underline dark:text-purple-300"
-                      >
-                        <strong className="text-xl">Maestro Corporation</strong>
-                      </a>
-                      <span className="font-semibold">Full-Stack JS Developer</span>
+                      <strong className="text-xl">Entreprise familiale</strong>
+                      <span className="font-semibold">Consultant développement</span>
                     </span>
                     <span className="flex flex-col items-end space-y-1 text-md text-right">
                       <span className="flex items-center font-semibold">
-                        <span>[CDI] 11/2015 - 06/2023</span>
+                        <span>01/2024 - aujourd'hui</span>
                       </span>
-                      <span>Toulouse, France</span>
+                      <span>Tendu, France</span>
                     </span>
                   </div>
-                  <p className="mt-1 text-justify">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
-                  <div className="flex flex-wrap mt-2 space-x-1 space-y-1 space-x-reverse">
-                    <Tag color="red" classes="mt-1 mr-1">{skills.js}</Tag>
-                    <Tag color="red">{skills.ts}</Tag>
-                    <Tag color="green">{skills.angular}</Tag>
-                    <Tag color="green">{skills.react}</Tag>
-                    <Tag color="green">{skills.next}</Tag>
-                    <Tag color="blue">{skills.express}</Tag>
-                    <Tag color="blue">{skills.koa}</Tag>
-                    <Tag color="purple">{skills.mongo}</Tag>
-                    <Tag color="purple">{skills.postgre}</Tag>
-                    <Tag color="black">{skills.mac}</Tag>
-                    <Tag color="black">{skills.linux}</Tag>
-                    <Tag color="black">{skills.docker}</Tag>
-                    <Tag color="gray">{skills.rabbitmq}</Tag>
-                    <Tag color="gray">{skills.aws}</Tag>
-                    <Tag color="gray">{skills.gcloud}</Tag>
-                    <Tag color="gray">{skills.jenkins}</Tag>
-                    <Tag color="gray">{skills.gitlabcicd}</Tag>
-                    <Tag color="gray">{skills.sentry}</Tag>
-                    <Tag color="gray">{skills.metabase}</Tag>
-                    <Tag color="amber">{`${skills.slack} (+API)`}</Tag>
-                    <Tag color="amber">{skills.notion}</Tag>
-                  </div>
+                  <ul className="flex flex-col space-y-1 ml-4 mt-1 list-disc">
+                    <li>Conception et développement d'un système de gestion de planning, de création de fiches journalières et d'alimentation automatique des données de facturation.</li>
+                    <li>Aide à la transition sur l'environnement Mac.</li>
+                  </ul>
                 </li>
 
                 <li className="mt-6">
@@ -412,23 +384,18 @@ export default function Home() {
                       <span className="font-semibold">Full-Stack JS Developer</span>
                     </span>
                     <span className="flex flex-col items-end space-y-1 text-md text-right">
-                      <span className="flex items-center space-x-2 font-semibold">
-                        <span>[stage]</span>
-                        <div className="flex flex-col">
-                          <span>04/2015 - 10/2015</span>
-                          <span>12/2014 - 03/2015</span>
-                        </div>
+                      <span className="flex items-center font-semibold">
+                        <span>12/2014 - 01/2024</span>
                       </span>
                       <span>Toulouse, France</span>
                     </span>
                   </div>
-                  <p className="flex flex-col mt-1 text-justify">
-                    <span>Conception et développement d'un outil de gestion de stocks pour une jeune entreprise vendant des places de concerts.</span>
-                    <span>L'objectif était de remplacer l'utilisation de plusieurs google sheets afin d'avoir une correlation claire entre les places et les ventes, permettant un aperçu rapide et sûr de l'état des stocks.</span>
-                    <span>N'ayant pas de designer, l'interface en AngularJS s'est affinée au fur et à mesure des besoins, en fonctionnement agile, via des échanges constants avec l'équipe opérationnelle.</span>
-                    <span>La partie server en NodeJS/ExpressJS s'est développée conjointement au système de détection automatique d'évènements sur le web, réalisé par un autre developper, avec l'élaboration d'une base de données MongoDB commune.</span>
-                    <span>Côté environnement, toutes les parties fonctionnaient sous Linux au sein de Dockers, orchestrés via l'outil d'automatisation server Jenkins, certains avec des configurations particulières comme par exemple, pour ma part, des outils de parsing PDF afin d'assurer la cohérence entre les données saisies par les utilisateurs et les informations extraites des places.</span>
-                  </p>
+                  <ul className="flex flex-col space-y-1 ml-4 mt-1 list-disc">
+                    <li>Conception, développement et maintenance d'un outil interne de gestion de stock.</li>
+                    <li>Reprise en charge du projet d'unification de nos sites web de réservation de places de concert, adaptation du cahier des charges par rapport aux nouveaux besoins de l'entreprise et des nouvelles capacités de l'infrastructure technique, et développement.</li>
+                    <li>Conception et développement d'un système de nettoyage/regroupement automatique d'informations issues d'extractions de données web.</li>
+                    <li>Conception et développement d'un système de vérification automatique de données au sein de documents PDF en provenance des billetteries.</li>
+                  </ul>
                   <div className="flex flex-wrap mt-2 space-x-1 space-y-1 space-x-reverse">
                     <Tag color="red" classes="mt-1 mr-1">{skills.js}</Tag>
                     <Tag color="green">{skills.angular}</Tag>
@@ -456,15 +423,14 @@ export default function Home() {
                     </span>
                     <span className="flex flex-col items-end space-y-1 text-md text-right">
                       <span className="flex items-center font-semibold">
-                        <span>[stage] 07/2014 - 10/2014</span>
+                        <span>(stage) 07/2014 - 10/2014</span>
                       </span>
                       <span>Toulouse, France</span>
                     </span>
                   </div>
-                  <p className="mt-1 text-justify">
-                    Développement de fonctionnalités sur un site web permettant aux utilisateurs de trouver facilement des évènements proches d'eux.
-                    Travail en équipe avec le designer (intégration de mockups) et le developper back-end (contacts avec l'API).
-                  </p>
+                  <span className="mt-1">
+                    Développement de fonctionnalités sur le site web, collaboration étroite avec l'équipe en charge du serveur.
+                  </span>
                   <div className="flex flex-wrap mt-2 space-x-1 space-y-1 space-x-reverse">
                     <Tag color="red" classes="mt-1 mr-1">{skills.js}</Tag>
                     <Tag color="green">{skills.jquery}</Tag>
@@ -488,13 +454,13 @@ export default function Home() {
                     </span>
                     <span className="flex flex-col items-end space-y-1 text-md text-right">
                       <span className="flex items-center font-semibold">
-                        <span>[stage] 03/2014 - 06/2014</span>
+                        <span>(stage) 03/2014 - 06/2014</span>
                       </span>
                       <span>Labège, France</span>
                     </span>
                   </div>
                   <p className="mt-1 text-justify">
-                    Développement de fonctionnalités sur un site web permettant le prêt d'objets entre voisins, incluant l'intégration de mockups ainsi que l'implémentation serveur avec gestion de la base de données.
+                    Développement de fonctionnalités sur le site web, gestion du serveur et de la base de données.
                   </p>
                   <div className="flex flex-wrap mt-2 space-x-1 space-y-1 space-x-reverse">
                     <Tag color="red" classes="mt-1 mr-1">{skills.js}</Tag>
@@ -510,7 +476,7 @@ export default function Home() {
                   <div className="flex justify-between">
                      <span className="flex flex-col justify-start space-y-1">
                       <a
-                        href="https://www.netexplorer.fr"
+                        href="https://www.linkedin.com/company/netexplorer"
                         target="_blank"
                         className="text-purple-600 hover:underline dark:text-purple-300"
                       >
@@ -520,13 +486,13 @@ export default function Home() {
                     </span>
                     <span className="flex flex-col items-end space-y-1 text-md text-right">
                       <span className="flex items-center font-semibold">
-                        <span>[stage] 11/2012 - 02/2013</span>
+                        <span>(stage) 11/2012 - 02/2013</span>
                       </span>
                       <span>Colomiers, France</span>
                     </span>
                   </div>
                   <p className="mt-1 text-justify">
-                    Résolution des problèmes de style liés aux spécificités de certains navigateurs (eg: Internet Explorer jusqu'en version 7), pour l'interface web d'une solution de partage/stockage de fichiers en ligne.
+                    Maintient de la compatibilité multi-navigateurs d'un applicatif existant.
                   </p>
                   <div className="flex flex-wrap mt-2 space-x-1 space-y-1 space-x-reverse">
                     <Tag color="green" classes="mt-1 mr-1">{skills.html}</Tag>
@@ -549,13 +515,13 @@ export default function Home() {
                     </span>
                     <span className="flex flex-col items-end space-y-1 text-md text-right">
                       <span className="flex items-center font-semibold">
-                        <span>[stage] 04/2012 - 06/2012</span>
+                        <span>(stage) 04/2012 - 06/2012</span>
                       </span>
                       <span>Toulouse, France</span>
                     </span>
                   </div>
                   <p className="mt-1">
-                    Stage de fin de DUT, avec pour objectif le portage d'une application de gestion de machines virtuelles en Python depuis une base en VBA, via du parsing de fichiers XML et de commandes DOS.
+                    Conception et développement du portage d'une application de gestion de machines virtuelles avec le langage Python.
                   </p>
                   <div className="flex flex-wrap mt-2 space-x-1 space-y-1 space-x-reverse">
                     <Tag color="red" classes="mt-1 mr-1">{skills.vba}</Tag>
@@ -572,7 +538,7 @@ export default function Home() {
             <Separator classes="mt-6"/>
 
             <section>
-              <h2 className="text-2xl font-bold">Éducation</h2>
+              <h2 className="text-2xl font-bold">Formations</h2>
               <ul>
                 <li className="mt-4">
                   <p className="flex justify-between">
@@ -587,7 +553,7 @@ export default function Home() {
                   </p>
                   <p className="flex justify-between mt-1">
                     {/* <span className="text-md font-semibold">Master Informatique</span> */}
-                    <span className="text-md font-semibold">Bachelor of Science with honours</span>
+                    <span className="text-md font-semibold">Master 1 Informatique</span>
                     <span className="text-end">Toulouse, France</span>
                   </p>
                 </li>
@@ -606,6 +572,23 @@ export default function Home() {
                   <p className="flex justify-between mt-1">
                     <span className="text-right text-md font-semibold">DUT Informatique</span>
                     <span>Blagnac, France</span>
+                  </p>
+                </li>
+
+                <li className="mt-6">
+                  <p className="flex justify-between">
+                    <a
+                      href="https://rollinat.fr/"
+                      target="_blank"
+                      className="text-purple-600 hover:underline dark:text-purple-300"
+                    >
+                      <strong className="text-xl">Lycée Rollinat</strong>
+                    </a>
+                    <span className="text-right text-md font-semibold">2007 - 2010</span>
+                  </p>
+                  <p className="flex justify-between mt-1">
+                    <span className="text-right text-md font-semibold">BAC scientifique, spécialité mathématiques, mention AB</span>
+                    <span>Argenton-sur-Creuse, France</span>
                   </p>
                 </li>
               </ul>
